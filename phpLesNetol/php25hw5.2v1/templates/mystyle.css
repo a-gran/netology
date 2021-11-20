@@ -1,0 +1,33 @@
+body {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+form {
+  display: block;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  float: left;
+}
+table {
+  clear: both;
+  border-collapse: collapse;
+}
+th {
+  background: #eee;
+}
+th, td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+.logout {
+  float: right;
+  margin: 10px;
+  padding: 6px 15px;
+  background-color: #E36116;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}

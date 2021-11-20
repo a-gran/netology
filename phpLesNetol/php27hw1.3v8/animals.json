@@ -1,0 +1,23 @@
+{
+  "Africa": [
+    "Bitis",
+    "Pristiophorus nudipinnis",
+    "Asio capensis",
+    "Lybiidae",
+    "Poelagus marjorita"
+  ],
+
+  "Australia": [
+    "Pelecanus conspicillatus",
+    "Pristiophorus nudipinnis",
+    "Austrocheirus",
+    "Corvus coronoides",
+    "Indopacetus pacificus"],
+
+    "South America": [
+      "Onychorhynchus coronatus",
+      "Mustela africana",
+      "Alouatta nigerrima",
+      "Amazona",
+      "Amazonetta brasiliensis"]
+}

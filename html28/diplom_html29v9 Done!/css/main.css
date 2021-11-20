@@ -1,0 +1,1275 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-bg {
+  background-color: #eceef4;  
+  min-width: 1200px;
+}
+
+.center {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Шапка */
+
+.header {  
+  min-height: 63px;
+  font-size: 0;
+}
+
+.left-top-menu {
+  display: inline-block;
+  width: 50%;
+  padding-left: 20px;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.left-top-menu li {
+  display: inline-block;
+  font-weight: bold;
+  background-color: #fff;
+  color: #6d6e71;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  height: 32px;
+  width: 99px;
+  vertical-align: middle;
+}
+
+.left-top-menu li:last-child {
+  margin-right: 0;
+}
+
+.left-top-menu a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #6d6e71;
+  font-size: 12px;
+  padding-left: 8px;
+  padding-top: 7px;
+}
+
+.left-top-menu a:hover {
+  color: #1faae2;
+}
+
+.blog a::before {
+  content: url(http://u.cubeupload.com/alex1088/iblogmin.png);
+  float: left;
+  height: 21px;
+  padding-right: 20px;
+}
+
+.blog a:hover::before {
+  content: url(http://u.cubeupload.com/alex1088/iblogcolor.png);
+
+}
+
+.jobs a::before {
+  content: url(http://u.cubeupload.com/alex1088/ijobsmin.png);
+  float: left;
+  height: 23px;
+  padding-right: 20px;
+  position: relative;
+  bottom: 3px;
+}
+
+.jobs a:hover::before {
+  content: url(http://u.cubeupload.com/alex1088/ijobscolor.png);
+}
+
+.support a::before {
+  content: url(http://u.cubeupload.com/alex1088/isupportmin.png);
+  float: left;
+  height: 18px;
+  padding-right: 12px;
+}
+
+.support a:hover::before {
+  content: url(http://u.cubeupload.com/alex1088/isupportcolor.png);
+}
+
+.lang a::before {
+  content: url(http://u.cubeupload.com/alex1088/ilangmin.png);
+  float: left;
+  height: 21px;
+  padding-right: 16px;
+}
+
+.lang a:hover::before {
+  content: url(http://u.cubeupload.com/alex1088/ilangcolor.png);
+}
+
+
+/* Правое верхнее меню социальных сетей */
+
+
+.right-social-menu {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.social {
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  vertical-align: middle;
+  border-left: 2px solid #dee0e6;
+  font-size: 0;
+}
+
+.right-social-menu li:last-child {
+  border-right: 2px solid #dee0e6;
+  margin-right: 20px;
+}
+
+.social-fb {
+  background-image: url(http://u.cubeupload.com/alex1088/ifacebookmin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 100%;
+}
+
+.social-tw {
+  background-image: url(http://u.cubeupload.com/alex1088/itwittermin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 100%;
+}
+
+.social-in {
+  background-image: url(http://u.cubeupload.com/alex1088/iinstagrammin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 100%;
+}
+
+.social-g {
+  background-image: url(http://u.cubeupload.com/alex1088/igmin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 100%;
+}
+
+/* Логотип */
+
+.bg-mid {
+  min-width: 1200px;
+}
+
+.mid {
+  margin-top: 63px;
+  font-size: 0;
+}
+
+.logo-col {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.logo span {
+  text-align: center;  
+  width: 100%;
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 0;
+}
+
+.logo {
+  display: inline-block;
+  color: #3687c4;  
+  width: 403px;
+  height: 93px;
+  background-image: url(http://u.cubeupload.com/alex1088/bglogo.jpg);
+  background-repeat: no-repeat;
+  margin-right: 188px;
+  vertical-align: middle;  
+  font-size: 0;
+}
+
+.logo span {
+  font-size: 41px;
+}
+
+
+/* Контакты */
+
+
+.top-contacts-col {
+  width: 50%;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: right;
+  font-size: 0;
+}
+
+.top-contacts {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 0;
+}
+
+.top-contacts li {
+  display: inline-block;
+}
+
+.place,
+.phone,
+.email {
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+}
+
+.place {
+  background-image: url(http://u.cubeupload.com/alex1088/iplacemin.png);  
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.wrap-place {
+  border-right: 2px solid #dee0e6;
+  border-left: 2px solid #dee0e6;
+}
+
+.place:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/iplacecolormin.png);
+  transition: 0.7s;
+}
+
+.phone {
+  background-image: url(http://u.cubeupload.com/alex1088/iphonemin.png);  
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.phone:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/iphonecolormin.png);  
+  transition: 0.7s;
+}
+
+.email {
+  background-image: url(http://u.cubeupload.com/alex1088/iemailmin.png);  
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.email:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/iemailcolormin.png);  
+  transition: 0.7s;
+}
+
+
+/* Подсказки */
+
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip::before,
+.tooltip::after {
+  display: block;
+  position: absolute;
+  left: 50%;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 15px;
+  transition: opacity 0.7s, margin-bottom 0.7s;
+}
+
+.tooltip::before {
+  position: absolute;
+  bottom: 50px;
+  padding: 10px;
+  width: 230px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #6d6e71;
+
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #d4d4d5;
+  border-radius: 5px;
+  content: attr(data-title);
+  box-sizing: border-box;
+}
+
+.tooltip-center::before {
+    margin-left: -115px;
+}
+
+.tooltip::after {
+  content: "";
+  border-top: 10px solid #d4d4d5;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: 40px;
+  margin-left: -10px;
+}
+
+.tooltip-left::before {
+  margin-left: -45px;
+}
+
+.tooltip-right::before {
+  margin-left: -185px;
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+  visibility: visible;
+  margin-bottom: 0;
+  opacity: 1;
+}
+
+
+/* Основное меню */
+
+
+nav {
+  min-width: 1200px;
+  border-top: 2px solid #dee0e6;
+  margin-top: 59px;
+  font-size: 0;
+}
+
+.bottom-menu {
+  display: inline-block;
+  padding: 0; 
+  height: 86px;
+  width: 70%;
+  font-size: 0;
+}
+
+.bottom-menu li {  
+  display: inline-block;
+  height: 86px;
+  border-right: 2px solid #dee0e6;
+}
+
+.bottom-menu li a {
+  display: block;
+  text-decoration: none;
+  font-size: 13px;
+  color: #6d6e71;
+  font-weight: bold;
+  line-height:  6.65;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.bottom-menu li:last-child {
+  border-right: none;
+}
+
+.bottom-menu li:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/iactivemin.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.bottom-menu li a:hover {
+  color: #1faae2;
+  transition: 0.5s;
+}
+
+.search-form-col {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 0;
+}
+
+.search {
+  display: inline-block;
+  width: 50%;
+  margin-right: 50px;
+  height: 28px;
+  font-size: 15px;
+  color: #6d6e71;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+
+input.search[placeholder] {
+  padding-left: 5px;
+}
+
+input.search:focus {
+  border: 2px solid #6d6e71;
+  box-sizing: border-box;
+}
+
+.button-search {
+  background-image: url(http://u.cubeupload.com/alex1088/isearchmin.png);  
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.button-search:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/isearchecolor.png);
+  transition: 0.7s;
+}
+
+
+/* Баннер */
+
+
+.back {
+  min-width: 1200px;
+  height: 885px;
+  background-image: url(http://u.cubeupload.com/alex1088/bgback.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.iback {
+  min-width: 1200px;
+  height: 885px;
+  background-image: url(http://u.cubeupload.com/alex1088/bgibackmin.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tagline {  
+  background-image: url(http://u.cubeupload.com/alex1088/imin.png);
+  background-repeat: no-repeat;
+  background-position: 10px 270px;
+  max-width: 770px;
+  margin-bottom: 0;
+  margin-left: 17.5%;
+  padding-top: 245px;
+}
+
+.tagline>h1 {
+  font-size: 58px;
+  color: #fff;  
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.tagline>p {
+  color: #fff;
+  font-size: 45px;  
+  font-weight: 200;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+
+/* Слайдер */
+
+
+.wrap-slider {
+  text-align: right;
+  margin-top: 154px;
+  font-size: 0;
+}
+
+.slider {
+  display: inline-block;
+  font-size: 0;
+}
+
+.slider-left-part,
+.slider-right-part {  
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+}
+
+.slider-left-button,
+.slider-right-button {
+  width: 322px;
+  height: 65px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 0;
+}
+
+.slider-left-button li,
+.slider-right-button li {
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.slider-left-button {
+  background-color: rgba(136, 201, 78, 0.8);
+}
+
+.left-like::before {
+  content: url(http://u.cubeupload.com/alex1088/iheart1min.png);
+  padding-right: 10px;
+  position: relative;
+  top: 7px;
+}
+
+.left-like:hover::before {
+  content: url(http://u.cubeupload.com/alex1088/iheart2color.png);
+}
+
+.slider-right-button {
+  background-color: rgba(254, 235, 117, 0.8);
+}
+
+.right-like::before {
+  content: url(http://u.cubeupload.com/alex1088/iheart2.png);
+  padding-right: 10px;
+  position: relative;
+  top: 7px;
+}
+
+.right-like:hover::before {
+  content: url(http://u.cubeupload.com/alex1088/iheart2color.png);
+}
+
+.like {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.left-like {
+  color: #fff;
+}
+
+.left-like:hover {
+  color: #c607ef;
+}
+
+.right-like {
+  color: #cc9800;
+}
+
+.right-like:hover {
+  color: #c607ef;
+}
+
+.slider-arrow {
+  height: 241px;
+  width: 111px;
+  background-color: #f4f4f4;
+  background-image: url(http://u.cubeupload.com/alex1088/iarrowmin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+
+.slider-arrow:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/iarrowcolor.png);
+  transition: 0.5s;
+}
+
+.slider-arrow a,
+.slider-left-button a,
+.slider-right-button a {
+  display: block;
+  height: 100%;
+  line-height: 4.8;
+}
+
+
+/* Тексты */
+
+
+.top-row {
+  min-width: 1200px;
+  margin-top: 30px;
+  font-size: 0;
+}
+
+.top-left-col,
+.top-right-col {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+
+.post-isama,
+.post-exist {
+  color: #6d6e71;
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 120px;
+}
+
+.post-isama {
+  background-image: url(http://u.cubeupload.com/alex1088/ilampmin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 22%;
+}
+
+.post-exist {
+  background-image: url(http://u.cubeupload.com/alex1088/itreemin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-left: 22%;
+}
+
+.post-isama h3,
+.post-exist h3 {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.post-isama p,
+.post-exist p {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+/* Заголовок видов услуг */
+
+
+.services {
+  min-width: 1200px;
+}
+
+.services::before {
+  content: url(http://u.cubeupload.com/alex1088/idividemin.png);
+  width: 100%;
+  height: 29px;
+  display: inline-block;
+  text-align: center;
+}
+
+.services {
+  margin-top: 100px;
+}
+
+.services-row {
+  width: 100%;  
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 80px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-services {
+  background-image: url(http://u.cubeupload.com/alex1088/itargetmin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: inline-block;
+  text-align: left;
+  color: #6d6e71;
+  width: 50%;
+  min-height: 120px;
+}
+
+.post-services h2 {
+  font-size: 44px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  margin-left: 28%;
+}
+
+.post-services p {
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 28%;
+}
+
+
+/* Виды услуг */
+
+
+.description {
+  min-width: 1200px; 
+  margin-top: 75px;
+}
+
+.description-row {
+  margin-bottom: 70px;
+  font-size: 0;
+}
+
+.description .description-row:last-child {
+  margin-bottom: 0;
+}
+
+.description-left-col,
+.description-right-col {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+}
+
+.post-dev {
+  background-image: url(http://u.cubeupload.com/alex1088/itoolmin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.post-mobile {
+  background-image: url(http://u.cubeupload.com/alex1088/iremotemin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.post-soft {
+  background-image: url(http://u.cubeupload.com/alex1088/icubemin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.post-interior {
+  background-image: url(http://u.cubeupload.com/alex1088/ichairmin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.post-brand {
+  background-image: url(http://u.cubeupload.com/alex1088/imousemin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.post-seo {
+  background-image: url(http://u.cubeupload.com/alex1088/iglobemin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.post-dev,
+.post-mobile,
+.post-soft,
+.post-interior,
+.post-brand,
+.post-seo {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #6d6e71;
+  min-height: 120px;
+}
+
+.description p {
+  font-size: 16px;
+  margin-left: 20%;
+  margin-bottom: 0;
+}
+
+.description h3 {
+  font-size: 24px;
+  margin-left: 20%;
+  margin-top: 0;
+}
+
+
+/* Портфолио */
+
+
+.portfolio {
+  margin-top: 150px;
+  background-color: #efefef;
+  padding-bottom: 85px;
+  min-width: 1200px;
+  font-size: 0;
+}
+
+.portfolio::before {
+  content: '';
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 29px;
+  position: relative;
+  bottom: 29px;
+  background-color: #efefef;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+}
+
+.projects-row {
+  width: 100%;  
+  display: inline-block;
+  text-align: center;
+  font-size: 0;
+}
+
+.post-projects {
+  background-image: url(http://u.cubeupload.com/alex1088/iflaskmin.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: inline-block;
+  text-align: left;
+  width: 45%;
+  color: #6d6e71;
+  min-height: 120px;
+}
+
+.post-projects h2 {
+  font-size: 44px;
+  margin-top: 45px;
+  margin-bottom: 0;
+  margin-left: 30%;
+}
+
+.post-projects p {
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 30%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* Кнопки */
+
+.projects-buttons-col {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.projects-buttons {
+  display: inline-block;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 0;
+}
+
+.btn {
+  display: inline-block;  
+  height: 45px;
+  margin-right: 15px;
+  border-radius: 5px;
+  background-color: #efefef;
+  box-sizing: border-box;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn-all {
+  width: 122px;
+}
+
+.btn-mob {
+  width: 157px;
+}
+
+.btn-ident {
+  width: 157px;
+}
+
+.btn-inter {
+  width: 157px;
+}
+
+.btn-ui {
+  width: 101px;
+}
+
+.projects-buttons a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-size: 15px;
+  color: #bbbbbb;
+  font-weight: bold;
+  padding-top: 10px;
+  border: 2px solid #cecece;
+  box-sizing: border-box;
+}
+
+.projects-buttons a:hover {
+  background-color: #1faae2;
+  color: #fff;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  transition: 0.7s;
+}
+
+.projects-buttons a:active {
+  background-color: #fff;
+  color: #6d6e71;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+/* Портфолио */
+
+
+.works {
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+}
+
+.work-cell {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  font-size: 0;
+}
+
+.bg-work {
+  background-color: #efefef;
+}
+
+.wrap-work {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 9px;
+  vertical-align: top;
+  margin: 8px;
+  font-size: 0;
+}
+
+.work {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.work:hover {
+  cursor: pointer;
+} 
+
+.works img {
+  border-radius: 5px;
+  width: 252px;
+  height: 209px;
+  background-color: #f5f5f5;
+}
+
+.bottom-link {
+  display: inline-block;
+  font-size: 0;
+  padding-left: 0;
+}
+
+.link,
+.more {
+  display: inline-block;
+  width: 124px;
+  height: 60px;
+}
+
+.link {
+  border-right: 1px solid #efefef;
+}
+
+.more a,
+.link a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.link a {
+  background-image: url(http://u.cubeupload.com/alex1088/ilinkmin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.link a:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/ilinkcolor.png);
+  transition: 0.7s;
+}
+
+.more a {
+  background-image: url(http://u.cubeupload.com/alex1088/imoremin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.more a:hover {
+  background-image: url(http://u.cubeupload.com/alex1088/imorecolor.png);
+  transition: 0.7s;
+}
+
+
+/* footer */
+
+
+.bg-footer {
+  background-color: #2b2c2d;
+  font-size: 0;
+  min-width: 1200px;
+}
+
+.footer-social-col {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  margin-top: 85px;
+  margin-bottom: 60px;
+  font-size: 0;
+}
+
+.footer-social-menu {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 0;
+}
+
+.footer-social-menu li {
+  display: inline-block;
+  height: 63px;
+  width: 63px;
+}
+
+.social-footer {
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 2px solid #3c3e3f;
+  font-size: 0;
+}
+
+.footer-social-menu li:last-child {
+  border-right: 2px solid #3c3e3f;
+}
+
+.footer-fb {
+  background-image: url(http://u.cubeupload.com/alex1088/ifooterfacebookmin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 63px;
+}
+
+.footer-tw {
+  background-image: url(http://u.cubeupload.com/alex1088/ifootertwittermin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 63px;
+}
+
+.footer-in {
+  background-image: url(http://u.cubeupload.com/alex1088/ifooterinstagrammin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 63px;
+}
+
+.footer-g {
+  background-image: url(http://u.cubeupload.com/alex1088/ifootergmin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 63px;
+}
+
+.footer-form-col {
+  display: inline-block;
+  width: 50%;  
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.footer-wrap-form {
+  display: inline-block;
+  border-radius: 10px;
+  height: 63px; 
+  background-color: #393b3c;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.footer-wrap-form-data {
+  display: inline-block;
+  margin-top: 9px;
+  width: 100%;
+  font-size: 0;
+}
+
+.data {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.data::before {
+  content: url(http://u.cubeupload.com/alex1088/ifooteremailmin.png);
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+button.button-footer {
+  width: 77px;
+  height: 45px;
+  background-color: #494c4d;
+  text-align: center;
+  color: #6d6e71;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-footer:hover {
+  background-color: #1faae2;
+  color: #fff;
+  transition: 0.7s;
+}
+
+.button-footer:active {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+}
+
+.footer-input {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  height: 28px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  color: #6d6e71;
+  background-color: #393b3c;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input.footer-input:focus {
+  background-color: #efefef;
+  color: black;
+}
+
+input.footer-input[placeholder] {
+  padding-left: 10px;
+}
+
+
+/* copyright */
+
+
+.copyright-col {
+  display: inline-block;
+  width: 50%;
+  font-size: 0;
+}
+
+.copyright {
+  display: inline-block;
+  font-size: 13px;
+  color: #6d6e71;
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.footer-links-col {
+  display: inline-block;
+  width: 50%;
+  padding-bottom: 30px;
+  font-size: 0;
+}
+
+.footer-links {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.footer-links li{
+  display: inline-block;
+  padding-bottom: 4px;
+  font-size: 0;
+}
+
+.footer-links a {
+  display: inline-block;
+  font-size: 13px;
+  color: #6d6e71;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.footer-links span {
+  display: inline-block;
+  font-size: 13px;
+  color: #6d6e71;  
+  font-weight: 500;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  top: 4px;
+  line-height: 0;
+}

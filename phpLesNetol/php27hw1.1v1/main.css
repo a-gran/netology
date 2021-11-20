@@ -1,0 +1,31 @@
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+section {	
+	background-color: #bebebe;
+	margin: 10px;
+	display: inline-block;
+	padding: 10px;	
+}
+
+h1 {
+	text-align: center;	
+}
+
+dl {
+	display: table-row;	
+}
+
+dt, dd {
+	display: table-cell;
+	padding: 5px 10px;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	font-style: italic;
+}

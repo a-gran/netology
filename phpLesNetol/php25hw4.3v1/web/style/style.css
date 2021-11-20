@@ -1,0 +1,181 @@
+* {
+    font-family: sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea:hover {
+    box-shadow: 0 0 4px -2px blue;
+    transition: all 0.2s;
+}
+
+textarea:focus {
+    outline: none !important;
+    box-shadow: 0 0 8px -2px blue;
+    transition: all 0.3s;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+#wrap {
+    max-width: 1440px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addTaskForm {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.addTaskForm p {
+    text-align: center;
+}
+
+.button {
+    margin: 10px auto 0;
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px -2px rgba(0, 0, 0, .75);
+    transition: all 0.3s;
+}
+
+.button:focus {
+    outline: none !important;
+}
+
+.button:active {
+    box-shadow: 0 0 5px -2px rgba(0, 0, 0, .75);
+    transform: scale(0.98);
+}
+
+input[name=editTask] {
+    width: 100px;
+    height: 24px;
+    margin: 0 0 0 20px;
+}
+
+.editTaskForm {
+    display: flex;
+    align-items: center;
+}
+
+input[name=editDescription] {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: calc(100% - 40px);
+    margin: 20px 20px 0;
+}
+
+.tasks {
+    min-width: 1000px;
+}
+
+.tasksForYou {
+    min-width: 1000px;
+}
+
+.tasksForUser {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: calc(100% - 40px);
+    margin: 20px 20px 0;
+}
+
+.notice {
+    color: darkgreen;
+}
+
+table a {
+    text-decoration: none;
+    color: grey;
+}
+
+.editSubmit {
+    margin: 5px auto;
+}
+
+table a:hover {
+    color: black;
+}
+
+td, tr {
+    padding: 10px;
+}
+
+tr:nth-child(2n+1) {
+    background-color: #eeeeee;
+}
+
+tr:first-child {
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+.link {
+    border: none;
+    background: none;
+    display: inline;
+    color: grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.sortForm {
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    margin: 20px 20px 0 20px;
+    justify-content: space-around;
+}
+
+.sortForm h2 {
+    padding-bottom: 9px;
+}
+
+.sortForm div {
+    padding-bottom: 20px;
+}
+
+.logout {
+    padding-top: 20px;
+}
+
+.tasksNotExist {
+    text-align: center;
+}
+
+.nickname {
+    margin: 0;
+}
+
+.smile {
+    text-align: center;
+    margin: 20px 0 0;
+    font-size: 3em;
+}

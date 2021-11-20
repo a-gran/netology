@@ -1,0 +1,19 @@
+[
+    {
+        "question": "Сколько метров в одном дециметре?",
+        "answers": [
+            {
+                "answer": "100",
+                "result": false
+            },
+            {
+                "answer": "0.1",
+                "result": true
+            },
+            {
+                "answer": "0.01",
+                "result": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "question": "Сколько дней в високосном году?",
+        "answers": [
+            {
+                "answer": "366",
+                "result": true
+            },
+            {
+                "answer": "365",
+                "result": false
+            },
+            {
+                "answer": "360",
+                "result": false
+            },
+        ]
+    }
+]

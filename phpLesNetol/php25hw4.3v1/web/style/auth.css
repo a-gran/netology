@@ -1,0 +1,10 @@
+.auth {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.switcher {
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+}

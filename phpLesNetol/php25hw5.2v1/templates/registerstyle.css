@@ -1,0 +1,16 @@
+body {
+  background-color: #E1F0FF;
+  text-align: center;
+  color: #6A6BA3;
+}
+form {
+  display: inline-block;
+  width: 220px;       
+}
+input {
+  margin: 0 0 20px 0;
+  color: #0000CD;
+}
+button {
+  color: #000080;
+}

@@ -1,0 +1,49 @@
+* {
+  font-family: 'Arial', sans-serif;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  border: 2px solid green;
+  width: 100%;
+}
+
+td, tr {
+  padding: 10px;
+}
+
+tr:nth-child(2n+1) {
+  background-color: lightgray;
+}
+
+tr:first-child {
+  background-color: lightgray;
+  border-bottom: 2px solid green;
+  text-align: center;
+}
+
+form > input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.form {
+  margin: 20px auto;
+  display: table;
+}
+ul>li {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}

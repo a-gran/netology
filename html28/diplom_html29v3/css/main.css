@@ -1,0 +1,1329 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  background-color: #eceef4;  
+  width: auto;
+  
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.center {
+  min-width: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+/* Шапка */
+
+.header {
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.left-top-menu {
+  display: inline-block;
+  width: 60%;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.left-top-menu {
+  padding-left: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0;
+  
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.left-top-menu li {  
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #6d6e71;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  padding: 3px 10px;
+  font-size: 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.left-top-menu .blog,
+.left-top-menu .support,
+.left-top-menu .lang {
+  padding: 4px 10px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.left-top-menu li:last-child {
+  margin-right: 0;
+
+}
+
+.blog a::before {  
+  content: url(http://u.cubeupload.com/alex1088/iblog.png);  
+  padding-right: 20px;  
+  float: left;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.jobs a::before {
+  content: url(http://u.cubeupload.com/alex1088/ijobs.png);
+  padding-right: 20px;
+  float: left;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.support a::before {
+  content: url(http://u.cubeupload.com/alex1088/isupport.png);
+  padding-right: 20px;
+  float: left;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.lang a::before {  
+  content: url(http://u.cubeupload.com/alex1088/ilang.png);
+  padding-right: 20px;
+  float: left;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.left-top-menu a {
+  text-decoration: none;
+  color: #6d6e71;
+  font-size: 12px;
+  padding: 0 10px;
+  position: relative;
+  top: 2px;  
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-right-social-menu {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.right-social-menu {
+  display: inline-block;
+  padding-right: 20px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social {
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  vertical-align: middle;
+  border-left: 2px solid #dee0e6;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.right-social-menu a:last-child {
+  border-right: 2px solid #dee0e6;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-fb {
+  background-image: url(http://u.cubeupload.com/alex1088/ifacebook.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-tw {
+  background-image: url(http://u.cubeupload.com/alex1088/itwitter.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-in {
+  background-image: url(http://u.cubeupload.com/alex1088/iinstagram.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-g {
+  background-image: url(http://u.cubeupload.com/alex1088/ig.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.mid {
+  margin-top: 63px;
+  font-size: 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.logo-col,
+.top-contacts-col {
+  width: 50%;
+  display: inline-block;  
+  vertical-align: top;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.top-contacts-col {
+  text-align: right;
+  padding-right: 28px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.logo-col {
+  text-align: center;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.logo span {
+  text-align: center;  
+  width: 100%;
+  display: inline-block;
+  margin-top: 18px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.logo {
+  display: inline-block;
+  color: #3687c4;  
+  width: 403px;
+  height: 93px;
+  background-image: url(http://u.cubeupload.com/alex1088/bglogo.png);
+  background-repeat: no-repeat;
+  margin-right: 188px;
+  
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.logo span {
+  font-size: 41px;
+}
+
+.top-contacts {
+  display: inline-block;
+  margin-top: 20px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.top-contacts-all {
+  width: 40%;
+  text-align: center;
+  display: inline-block;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.cloud-wrap {
+  width: 100%;
+  display: inline-block;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.cloud {
+  position: relative;
+  background: #ffffff;
+  border: 3px solid #d4d4d5;
+  border-radius: 10px;
+}
+
+.cloud p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #6d6e71;
+  margin: 7px 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.cloud::after, .cloud::before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.cloud::after {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #ffffff;
+  border-width: 12px;
+  margin-left: -12px;
+}
+
+.cloud::before {
+  border-color: rgba(212, 212, 213, 0);
+  border-top-color: #d4d4d5;
+  border-width: 15px;
+  margin-left: -15px;
+}
+
+.phone,
+.place,
+.email {
+  display: inline-block;
+  width: 34px;
+  height: 34px;  
+  background-repeat: no-repeat;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.phone {
+  background-image: url(http://u.cubeupload.com/alex1088/iphone.png);  
+  background-position: center center;
+  border-right: 2px solid #dee0e6;
+  padding-right: 40px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.place {
+  background-image: url(http://u.cubeupload.com/alex1088/iplace.png);  
+  background-position: center center;
+  border-right: 2px solid #dee0e6;
+  padding: 0 20px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.email {
+  background-image: url(http://u.cubeupload.com/alex1088/iemail.png);  
+  background-position: center center;
+  padding-left: 40px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+nav {
+  border-top: 2px solid #dee0e6;
+  margin-top: 59px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.bottom-menu {
+  padding: 0; 
+  height: 88px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.bottom-menu li {  
+  display: inline-block;
+  height: 86px;
+  border-right: 2px solid #dee0e6;  
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.bottom-menu li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  color: #6d6e71;
+  font-weight: bold;
+  margin-top: 30px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.bottom-menu li:last-child {
+  border-right: none;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* Баннер */
+
+
+.back {
+  height: 885px;
+  background-image: url(http://u.cubeupload.com/alex1088/bgback.png);
+  background-repeat: no-repeat;
+}
+
+.iback {
+  height: 885px;
+  background-image: url(http://u.cubeupload.com/alex1088/bgiback.png);
+  background-repeat: no-repeat;
+}
+
+.tagline {  
+  background-image: url(http://u.cubeupload.com/alex1088/i.png);
+  background-repeat: no-repeat;
+  background-position: 10px 275px;
+  max-width: 770px;
+  margin-bottom: 0;
+  margin-left: 22%;
+  padding-top: 250px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 58px;
+  color: white;  
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.tagline>p {
+  color: white;
+  font-size: 45px;  
+  font-weight: 200;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+/* Слайдер */
+
+
+.slider {
+  display: inline-block;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-slider {
+  text-align: right;
+  margin-top: 157px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.sl-1,
+.sl-2 {  
+  display: inline-block;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.sl-1>img,
+.sl-2>img {
+  display: block;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-like-1 {
+  background-color: rgba(136, 201, 78, 0.5);
+  text-align: center;  
+  height: 65px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-like-2 {
+  background-color: rgba(254, 235, 117, 0.5);
+  text-align: center;  
+  height: 65px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.like-1,
+.like-2 {
+  color: white;
+  display: inline-block;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.like-1,
+.like-2 {  
+  font-size: 14px;
+}
+
+.like-1::before {
+  content: url(http://u.cubeupload.com/alex1088/iheart1.png);
+  float: left;
+  
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.like-2::before {
+  content: url(http://u.cubeupload.com/alex1088/iheart2.png);
+  float: left;
+  
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.slider-arrow {
+  height: 245px;
+  width: 111px;
+  background-color: #f4f4f4;
+  background-image: url(http://u.cubeupload.com/alex1088/iarrow.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  vertical-align: top;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* Тексты */
+
+
+.devide {
+  background-image: url(http://u.cubeupload.com/alex1088/idivide.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 100%;
+  height: 30px;
+  margin-top: 90px;
+}
+
+.top-row {
+  margin-top: 30px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.top-left-col,
+.top-right-col {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-1 {
+  background-image: url(http://u.cubeupload.com/alex1088/ilamp.png);
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-right: 10%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-2 {
+  background-image: url(http://u.cubeupload.com/alex1088/itree.png);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-right: 5%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-1,
+.post-2 {
+  margin-left: 25%;
+  color: #6d6e71;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-1>p,
+.post-2>p {
+  font-size: 16px;
+  margin-bottom: 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* Заголовок видов услуг */
+
+.center-r {
+  margin-top: 90px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.center-row {
+  width: 100%;  
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-3 {
+  background-image: url(http://u.cubeupload.com/alex1088/itarget.png);
+  background-repeat: no-repeat;  
+  display: inline-block;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-3 {
+  margin-left: 160px;
+  text-align: left;
+  color: #6d6e71;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-3 h2 {
+  font-size: 44px;
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-3 p {
+  font-size: 17px;
+
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* Виды услуг */
+
+
+.description {
+  margin-top: 85px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.left-col,
+.right-col {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;  
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-4 {
+  background-image: url(http://u.cubeupload.com/alex1088/itool.png);
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-right: 10%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-5 {
+  background-image: url(http://u.cubeupload.com/alex1088/iremote.png);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-right: 5%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-4,
+.post-5,
+.post-6,
+.post-7,
+.post-8,
+.post-9 {
+  margin-left: 20%;
+  color: #6d6e71;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.description p {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.description h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.row-2 {
+  margin-top: 100px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-6 {
+  background-image: url(http://u.cubeupload.com/alex1088/icube.png);
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-right: 10%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-7 {
+  background-image: url(http://u.cubeupload.com/alex1088/ichair.png);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-right: 5%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.row-3 {
+  margin-top: 100px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-8 {
+  background-image: url(http://u.cubeupload.com/alex1088/imouse.png);
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-right: 10%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-9 {
+  background-image: url(http://u.cubeupload.com/alex1088/iglobe.png);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-right: 5%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* Портфолио */
+
+.bg-radius {
+  margin-top: 120px;
+  background-color: #efefef;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  height: 29px;
+  width: 100%;
+}
+
+.portfolio {
+  background-color: #efefef;
+  padding-bottom: 70px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.bottom-center-row {
+  width: 100%;  
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding-top: 60px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-post-10 {
+  background-image: url(http://u.cubeupload.com/alex1088/iflask.png);
+  background-repeat: no-repeat;  
+  display: inline-block;
+  width: 45%;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-10 {
+  margin-left: 170px;
+  text-align: left;
+  color: #6d6e71;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-10 h2 {
+  font-size: 44px;
+  margin-top: 45px;
+  margin-bottom: 0;
+  
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.post-10>p {
+  font-size: 17px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* Кнопки */
+
+.buttons-col {
+  text-align: center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: inline-block;
+  text-align: center;
+  margin-top: 80px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.buttons button {
+  border: 2px solid #cecece;
+  padding: 15px 50px;
+  margin-right: 15px;
+  font-size: 15px;
+  color: #bbbbbb;
+  border-radius: 5px;
+  background-color: #efefef;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.buttons button:last-child {
+  margin-right: 0;
+}
+
+button:active {
+  background-color: #ffffff;
+  color: black;
+}
+
+
+/* Портфолио */
+
+
+.works {
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.work-cell {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.bg-work {
+  background-color: #efefef;
+}
+
+.wrap-work {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 9px;
+  vertical-align: top;
+  margin-bottom: 15px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.work {
+  display: inline-block;
+  
+  width: 100%;
+  height: auto;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 0;
+  
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.works img {
+  border-radius: 5px;
+  width: 252px;
+  height: 209px;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.wrap-bottom-link {
+  text-align: center;
+
+  font-size: 0;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.bottom-link {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  height: 60px;
+
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  background-image: url(http://u.cubeupload.com/alex1088/ilink.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 125px;
+  height: 60px;
+  display: inline-block;
+  border-right: 2px solid #cecece;
+
+  box-sizing: border-box;
+}
+
+.more {
+  background-image: url(http://u.cubeupload.com/alex1088/imore.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 125px;
+  height: 60px;
+  display: inline-block;
+
+  box-sizing: border-box;
+}
+
+
+/* footer */
+
+.footer {
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.bg-footer {
+  background-color: #2b2c2d;
+}
+
+.footer-social-col {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+  margin-top: 70px;
+  margin-bottom: 60px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.footer-social-menu {
+  display: inline-block;
+  padding-left: 20px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-f {
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  vertical-align: middle;
+  border-left: 2px solid #3c3e3f;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.footer-social-menu a:last-child {
+  border-right: 2px solid #3c3e3f;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-fbf {
+  background-image: url(http://u.cubeupload.com/alex1088/ifooterfacebook.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-twf {
+  background-image: url(http://u.cubeupload.com/alex1088/ifootertwitter.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-inf {
+  background-image: url(http://u.cubeupload.com/alex1088/ifooterinstagram.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.social-gf {
+  background-image: url(http://u.cubeupload.com/alex1088/ifooterg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.form-col {
+  display: inline-block;
+  width: 60%;  
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 10px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-form {
+  display: inline-block;
+  border-radius: 10px;
+  height: 63px; 
+  background-color: #393b3c;
+  width: 85%;
+  text-align: center;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.wrap-form-data {
+  display: inline-block;
+  margin-top: 9px;
+  width: 100%;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.data {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.data::before {
+  content: url(http://u.cubeupload.com/alex1088/ifooteremail.png);  
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+button.b-footer {
+  width: 77px;
+  height: 45px;
+  background-color: #494c4d;
+  text-align: center;
+  color: #6d6e71;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: none;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.f-input {
+  width: 85%;
+  margin: 0;
+  padding: 0;
+  height: 28px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  color: #6d6e71;
+  background-color: #393b3c;
+  border: none;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+/* copyright */
+
+
+.copyright-col {
+  display: inline-block;
+  width: 50%;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.copyright {
+  display: inline-block;
+  font-size: 13px;
+  color: #6d6e71;
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin: 0;
+  font-weight: 300;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.footer-links-col {
+  display: inline-block;
+  width: 50%;
+  padding-bottom: 30px;
+
+  font-size: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.footer-links {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.footer-links li{
+  display: inline-block;
+  padding-bottom: 4px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.footer-links li a {
+  font-size: 13px;
+  color: #6d6e71;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 4px;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+.footer-links span {
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  top: 4px;
+  line-height: 0;
+
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+
+
+/*.form-footer::before {
+  content: url(http://u.cubeupload.com/alex1088/ifooteremail.png);  
+  padding-right: 20px;  
+  float: left;
+
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+&bull;
+*/
+
+
+

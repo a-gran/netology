@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ударная установка</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <ul class="drum-kit">
+    <li class="drum-kit__drum key-clap">
+      <span class="drum-kit__drum__type">Clap</span>
+  		<audio src="wav/clap.wav" />
+  	</li>
+  	<li class="drum-kit__drum key-hihat">
+  	  <span class="drum-kit__drum__type">Hihat</span>
+  		<audio src="wav/hihat.wav" />
+  	</li>
+  	<li class="drum-kit__drum key-kick">
+      <span class="drum-kit__drum__type">Kick</span>
+  		<audio src="wav/kick.wav" />
+  	</li>
+  	<li class="drum-kit__drum key-openhat">
+      <span class="drum-kit__drum__type">Openhat</span>
+  		<audio src="wav/openhat.wav" />
+  	</li>
+  	<li class="drum-kit__drum key-boom">
+      <span class="drum-kit__drum__type">Boom</span>
+  		<audio src="wav/boom.wav" />
+  	</li>
+  	<li class="drum-kit__drum key-ride">
+      <span class="drum-kit__drum__type">Ride</span>
+  		<audio src="wav/ride.wav" />
+  	</li>
+  </ul>
+  <script>
+    let drums = document.getElementsByTagName('li');
+    for (let event of drums) {
+        event.onclick = function () { 
+        let sound = this.getElementsByTagName('audio')[0];
+        sound.pause();
+        sound.currentTime = 0;
+        sound.play();
+      }
+    }
+  </script>
+</body>
+</html>

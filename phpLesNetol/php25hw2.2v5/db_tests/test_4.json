@@ -1,0 +1,19 @@
+[
+    {
+        "question": "Сколько битов в одном байте?",
+        "answers": [
+            {
+                "answer": "1",
+                "result": false
+            },
+            {
+                "answer": "8",
+                "result": true
+            },
+            {
+                "answer": "2",
+                "result": false
+            }
+        ]
+    }
+]

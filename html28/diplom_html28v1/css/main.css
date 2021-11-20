@@ -1,0 +1,27 @@
+html {
+	
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	max-width: 2000px;
+}
+
+.top-menu {
+	background-color: #eceef4;
+	height: 63px;
+}
+
+.blog,
+.jobs,
+.support,
+.lang {
+	display: inline-block;	
+}
+
+a {
+	text-decoration: none;
+}
+
+
+

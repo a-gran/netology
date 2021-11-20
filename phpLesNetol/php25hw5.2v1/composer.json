@@ -1,0 +1,12 @@
+{
+    "name": "test",
+    "authors": [
+        {
+            "name": "Shramko Alexey",
+            "email": "alex-shtern@yandex.ru"
+        }
+    ],
+    "require": {
+        "twig/twig": "~1.0"
+    }
+}
